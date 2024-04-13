@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.calculator {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #3c3c3c; /* Dark gray */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadows */
+}
+.telescope-image {
+  width: 150px;
+  height: 150px;
+  background-image: url('telescope.jpg'); /* Replace 'telescope.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Makes it round */
+  margin: 0 auto 20px; /* Adds margin below the heading */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f0db4f; /* Yellow */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f0db4f; /* Yellow */
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #1f1f1f; /* Dark gray */
+  color: #fff; /* White */
+}
+
+button {
+  width: calc(25% - 5px);
+  padding: 15px;
+  background-color: #1f1f1f; /* Dark gray */
+  color: #fff; /* White */
+  border: 1px solid #000; /* Black */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adding shadows */
+}
+
+button:hover {
+  background-color: #000; /* Black */
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #f0db4f; /* Yellow */
+}
+.dream-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff; /* Blue color for link */
+}
+
+.dream-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
